@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chatroom chatroomId="5">
+  <message messageId="1">
+    <username>Ivy</username>
+    <submissionTime>2019-03-29T00:42:27Z</submissionTime>
+    <messageText>Hey what are some games I should play?</messageText>
+  </message>
+  <message messageId="2">
+    <username>Kayla</username>
+    <submissionTime>2019-03-29T00:49:24Z</submissionTime>
+    <messageText>Hmm</messageText>
+  </message>
+  <message messageId="3">
+    <username>Kayla</username>
+    <submissionTime>2019-03-29T00:49:38Z</submissionTime>
+    <messageText>Let me ask my friends</messageText>
+  </message>
+  <message messageId="4">
+    <username>Ivy</username>
+    <submissionTime>2019-03-30T12:50:51Z</submissionTime>
+    <messageText>Ok!</messageText>
+  </message>
+</chatroom>

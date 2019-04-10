@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users>
+	<user userId="1">
+		<username>Beverly</username>
+		<password>$2y$10$XjMUnw.gDSzY1yaENm4CdeuaO49XKgMeYqH7VZ.idRzyOU3k76DOS</password>
+	</user>
+	<user userId="2">
+		<username>Vivian</username>
+		<password>$2y$10$Yg0HAAnQNDMuKO3NAWRmgOouSgZYzvLi.FDK0oYOM7fVSbKCKvUxK</password>
+	</user>
+	<user userId="3">
+		<username>Victor</username>
+		<password>$2y$10$jTiE8lDq1rA7ZOCxGBrDouuJDHIvztlAfemgQuvz1.G0ufcnEPGni</password>
+	</user>
+	<user userId="4">
+		<username>Rochelle</username>
+		<password>$2y$10$zdvMxG.IPPo6f50L2ImZo.bEYU4qVAmD3MErpAcOBWlILRREKCc6i</password>
+	</user>
+	<user userId="5">
+		<username>Kayla</username>
+		<password>$2y$10$SRIStYGMMCwbyAc5yTfmluAc8vzkh3ZmoQKDKhWFnn/NuTWFjWu7K</password>
+	</user>
+	<user userId="6">
+		<username>Ivy</username>
+		<password>$2y$10$MJ00avtDR9adGs4X2R5dSuaoQJO43fRo1rT2IWeteSkOqAX4o/Ese</password>
+	</user>
+</users>
+<!--For Joanna:
+Username: Beverly 
+Password: password
+-->

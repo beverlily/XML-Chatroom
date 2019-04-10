@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chatrooms>
+	<chatroom chatroomId="1">
+		<chatroomName>Friends</chatroomName>
+		<description>A place to make friends and just chat</description>
+	</chatroom>
+	<chatroom chatroomId="2">
+		<chatroomName>XML</chatroomName>
+		<description>A place to talk about XML, DTDs, and Schemas</description>
+	</chatroom>
+	<chatroom chatroomId="3">
+		<chatroomName>Winter Plans</chatroomName>
+		<description>Trip ideas for Winter break 2019</description>
+	</chatroom>
+	<chatroom chatroomId="4">
+		<chatroomName>Web Development</chatroomName>
+		<description>A place to talk about Web Development</description>
+	</chatroom>
+	<chatroom chatroomId="5">
+		<chatroomName>Gaming</chatroomName>
+		<description>A chat about new games coming out</description>
+	</chatroom>
+</chatrooms>

@@ -1,0 +1,274 @@
+/************************************************
+ * TABLE OF CONTENTS
+ * =================
+ * 1. DEFAULT OVERRIDES
+ * 2. GENERAL CLASSES
+ * 3. GENERAL STYLING
+ * 4. HEADER
+ * 5. LOGIN
+ * 6. CHATROOM LIST
+ * 7. CHATROOM WINDOW
+ * 8. FOOTER
+ * 9. SKIP TO MAIN
+ ***********************************************/
+
+/*1. DEFAULT OVERRIDES*/
+html {
+   box-sizing: border-box;
+   font-size: 16px;
+}
+
+*,
+*::before,
+*::after {
+   box-sizing: inherit;
+}
+
+body{
+	font-family: Arial;
+	margin: 0;
+	padding: 0;
+}
+
+ul{
+  list-style: none;
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+li{
+  display: inline-block;
+}
+
+h1{
+	display: inline-block;
+	font-size: 1.25rem;
+}
+
+h2{
+	margin-top: 0;
+}
+
+main{
+	padding: 50px 75px;
+}
+
+button, #send{
+	border: none;
+	background: none;
+	font-size: 1rem;
+	font-family: inherit;
+	cursor: pointer;
+}
+
+/*2. GENERAL CLASSES*/
+.hidden {
+   position: absolute;
+   left: -10000px;
+}
+
+.flex-container{
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.page-wrapper{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.button-container{
+	width: 100%;
+	margin-top: 20px;
+}
+
+.button-container button{
+	margin-bottom: 15px;
+}
+
+.button{
+	border-radius: 5px;
+	font-weight: bold;
+	padding: 10px;
+	margin-right: 10px;
+	display: inline-block;
+	transition: 0.25s all;
+	text-transform: uppercase;
+	border: none;
+    color: black;
+	cursor: pointer;
+    background-color: #FFE691;
+    background-image: linear-gradient(to right, rgba(255, 173, 114, 0.5), rgba(255, 190, 114, 0.5), rgba(255, 230, 145, 0.5));
+}
+
+.button:hover {
+   background-color: #bbf9f5;
+   background-image: linear-gradient(to right, rgba(130, 172, 248, 0.5), rgba(114, 199, 254, 0.5), rgba(187, 249, 245, 0.5));
+   text-decoration: none;
+}
+
+/*3. GENERAL STYLING*/
+#main-header, #main-footer{
+  background-color: #201f27;
+  color: white;
+  padding: 5px 50px;
+}
+
+/*4. HEADER*/
+#logo-and-sitename{
+	flex: 1;
+}
+
+#main-header-content{
+	align-items: center;
+}
+
+#userMenu{
+	display: inline-block;
+}
+
+#userInfo{
+	padding: 10px;
+}
+
+#logout{
+	color: white;
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+
+#main-header{
+  border-bottom: 1px solid #383838;
+}
+
+#main-header .page-wrapper{
+  margin: 0;
+}
+
+#main-header-logo{
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 30px;
+  margin-right: 25px;
+  cursor: pointer;
+}
+
+/*5. LOGIN*/
+#loginForm input, .button{
+	margin-bottom: 10px;
+}
+
+.error{
+	margin-top: 20px;
+	color: red;
+}
+
+/*6. CHATROOM LIST*/
+.chatroomName{
+	background: none;
+	border: none;
+	font-weight: bold;
+	font-size: 20px;
+	padding: 0;
+	margin: 0;
+}
+
+.chatroom{
+	border-bottom: 1px solid grey;
+	cursor: pointer;
+	transition: all 0.5s;
+	padding: 30px;
+}
+
+.chatroom:hover{
+	background-color: #f1f1f1;
+}
+
+
+/*7. CHATROOM WINDOW*/
+#chatroomWindow{
+	border: 1px solid #a7a7a7;
+	box-shadow: 0px 0px 5px #d7d7d7;
+	padding: 50px;
+	background: #36393F;
+	color: white;
+}
+
+.username{
+	font-weight: bold;
+}
+
+.submissionTime{
+	margin-bottom: 5px;
+}
+
+.message{
+	margin-bottom: 20px;
+}
+
+.messageText{
+	background-color: #f1f1f1;
+	color: #36393F;
+	border-radius: 5px;
+	padding: 10px;
+	margin: 5px;
+	width: 50%;
+}
+
+.submissionTime{
+	font-size: 0.8rem;
+}
+
+#send{
+	display: inline-block;
+	background-color: #363C46;
+	color: white;
+	padding: 10px 25px;
+	border-radius: 5px;
+	transition: all 0.5s;
+}
+
+#send:hover{
+	background: #47505D;
+}
+
+#newMessageContainer{
+	padding: 10px;
+	border: 1px solid #a7a7a7;
+	background: #1B1D23;
+	color: white;
+}
+
+#newMessage{
+	display: inline-block;
+	background: #1B1D23;
+	color: white;
+	border: none;
+	flex: 1;
+	border-top: none;
+	padding: 5px;
+}
+
+#newMessage::placeholder{
+	color: white;
+}
+
+#back{
+	margin-top: 15px;
+}
+
+/*8. FOOTER*/
+#main-footer{
+	text-align: center;
+}
+
+/*9. SKIP TO MAIN*/
+#skip-to-main:focus{
+   position: relative;
+   left: 0;
+}

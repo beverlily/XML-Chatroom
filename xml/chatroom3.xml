@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chatroom chatroomId="3">
+  <message messageId="1">
+    <username>Rochelle</username>
+    <submissionTime>2019-03-10T09:10:10Z</submissionTime>
+    <messageText>Hi everyone!</messageText>
+  </message>
+  <message messageId="2">
+    <username>Beverly</username>
+    <submissionTime>2019-03-28T22:39:11Z</submissionTime>
+    <messageText>Hey!! Let's start making winter plans :)</messageText>
+  </message>
+  <message messageId="3">
+    <username>Ivy</username>
+    <submissionTime>2019-03-29T02:07:39Z</submissionTime>
+    <messageText>We should go skating</messageText>
+  </message>
+</chatroom>

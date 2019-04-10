@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chatroom chatroomId="2">
+  <message messageId="1">
+    <username>Kayla</username>
+    <submissionTime>2019-02-30T09:10:10Z</submissionTime>
+    <messageText>Hi lets talk about XML!!</messageText>
+  </message>
+  <message messageId="2">
+    <username>Vivian</username>
+    <submissionTime>2019-03-29T00:50:47Z</submissionTime>
+    <messageText>:)</messageText>
+  </message>
+</chatroom>

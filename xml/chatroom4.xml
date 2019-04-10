@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chatroom chatroomId="4">
+  <message messageId="1">
+    <username>Rochelle</username>
+    <submissionTime>2019-03-15T09:10:10Z</submissionTime>
+    <messageText>Let's start learning Node.js</messageText>
+  </message>
+  <message messageId="2">
+    <username>Beverly</username>
+    <submissionTime>2019-03-22T22:39:11Z</submissionTime>
+    <messageText>Okay sounds good!</messageText>
+  </message>
+  <message messageId="3">
+    <username>Rochelle</username>
+    <submissionTime>2019-03-29T00:50:31Z</submissionTime>
+    <messageText>What do you wanna make?</messageText>
+  </message>
+  <message messageId="4">
+    <username>Ivy</username>
+    <submissionTime>2019-03-29T01:05:29Z</submissionTime>
+    <messageText>Can I join you guys too?</messageText>
+  </message>
+</chatroom>
